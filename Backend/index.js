@@ -1,18 +1,15 @@
-const express = require("express");
-const mongoose = require("mongoose");
+import express, { json } from "express";
+import "./start/envConfig.js";
 
-const signup = require("./routes/signup");
-const login = require("./routes/login");
+import "./start/db.js";
+import signup from "./routes/signup.js";
+import login from "./routes/login.js";
 
 const app = express();
-app.use(express.json());
+app.use(json());
 
 app.use("/api/signup", signup);
 app.use("/api/login", login);
-
-mongoose
-  .connect("mongodb://localhost/blogs")
-  .then(() => console.log("Connected with Database"));
 
 const port = process.env.PORT || 3300;
 

@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
-const Joi = require("joi");
-const { joiPassword } = require("joi-password");
+import mongoose from "mongoose";
+import Joi from "joi";
+import { joiPassword } from "joi-password";
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -51,5 +51,6 @@ function validateUser(user) {
   return schema.validate(user);
 }
 
-exports.User = User;
-exports.validate = validateUser;
+const _User = User;
+export { _User as User };
+export const validate = validateUser;

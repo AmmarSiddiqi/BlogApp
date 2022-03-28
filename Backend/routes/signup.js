@@ -1,7 +1,7 @@
-const { User, validate } = require("../models/user");
-const express = require("express");
+import { User, validate } from "../models/user.js";
+import { Router } from "express";
 
-const router = express.Router();
+const router = Router();
 
 router.use((req, res, next) => {
   console.log(`Signup API ${req.url} @ ${Date.now()}`);
@@ -22,4 +22,4 @@ router.post("/", async (req, res) => {
   return res.status(200).send(user);
 });
 
-module.exports = router;
+export default router;
