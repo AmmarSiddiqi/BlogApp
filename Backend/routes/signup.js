@@ -1,5 +1,8 @@
-import { User, validate } from "../models/user.js";
+import _ from "lodash";
+import bcrypt from "bcrypt";
 import { Router } from "express";
+
+import { User, validate } from "../models/user.js";
 
 const router = Router();
 
@@ -12,14 +15,17 @@ router.post("/", async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  let { name, email, password } = req.body;
+  const { email } = req.body;
 
-  let user = await User.findOne({ email: email });
+  let user = await User.findOne({ email });
   if (user) return res.status(400).send("User already exists.");
 
-  user = new User({ name, email, password });
+  user = new User(_.pick(req.body, ["name", "email", "password"]));
+  const salt = await bcrypt.genSalt(10);
+  user.password = await bcrypt.hash(user.password, salt);
+  user.verified = true;
   await user.save();
-  return res.status(200).send(user);
+  return res.status(200).send(_.pick(user, ["name", "email"]));
 });
 
 export default router;
