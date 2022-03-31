@@ -1,0 +1,16 @@
+{
+  level: 'error',
+  message: 'Error Error',
+  stack: 'Error: Error\n' +
+    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/controllers/profiles.js:10:9\n' +
+    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/async.js:4:13\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at auth (file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/auth.js:11:5)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\index.js:281:22',
+  timestamp: '2022-03-31T13:06:59.177Z'
+}

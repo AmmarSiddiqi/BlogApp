@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
+import { logger } from "./logger.js";
 
 mongoose
   .connect(`${process.env.db}`)
-  .then(() => console.log("Connected with Database"))
+  .then(() => logger.info("Connected with Database"))
   .catch((ex) => {
     console.log(ex);
   });

@@ -1,0 +1,96 @@
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:01:18.860Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:01:18.900Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:01:24.151Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:01:24.196Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:02:48.940Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:02:48.980Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:10.686Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:10.729Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:33.171Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:33.208Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:44.732Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:05:44.772Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:06:53.729Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:06:53.765Z'
+}
+{
+  level: 'error',
+  message: 'Error Error',
+  stack: 'Error: Error\n' +
+    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/controllers/profiles.js:10:9\n' +
+    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/async.js:4:13\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at auth (file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/auth.js:11:5)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\index.js:281:22',
+  timestamp: '2022-03-31T13:06:59.176Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-03-31T13:07:30.455Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-03-31T13:07:30.494Z'
+}
