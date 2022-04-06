@@ -1,16 +1,67 @@
 {
   level: 'error',
-  message: 'Error Error',
-  stack: 'Error: Error\n' +
-    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/controllers/profiles.js:10:9\n' +
+  message: "Cannot read properties of undefined (reading 'filename') Cannot read properties of undefined (reading 'filename')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'filename')\n" +
+    '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/controllers/articles.js:20:24\n' +
     '    at file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/async.js:4:13\n' +
     '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
     '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
-    '    at auth (file:///C:/Users/ammar/Desktop/BlogApp/Backend/middleware/auth.js:11:5)\n' +
+    '    at multerMiddleware (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\multer\\lib\\make-middleware.js:18:41)\n' +
     '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
     '    at next (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
     '    at Route.dispatch (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
     '    at Layer.handle [as handle_request] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
     '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\express\\lib\\router\\index.js:281:22',
-  timestamp: '2022-03-31T13:06:59.177Z'
+  timestamp: '2022-04-04T10:08:34.179Z'
+}
+{
+  path: 'file._types',
+  level: 'error',
+  message: 'Schema can only contain plain objects Schema can only contain plain objects',
+  stack: 'Error: Schema can only contain plain objects\n' +
+    '    at new module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n' +
+    '    at module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:88:5)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)\n' +
+    '    at internals.Base.$_compile (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\base.js:645:24)\n' +
+    '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:92\n' +
+    '    at Object.exports.tryWithPath (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\common.js:176:16)\n' +
+    '    at internals.Base.method [as keys] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:32)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:90:25)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)',
+  timestamp: '2022-04-04T10:11:41.703Z'
+}
+{
+  path: 'file._types',
+  level: 'error',
+  message: 'Schema can only contain plain objects Schema can only contain plain objects',
+  stack: 'Error: Schema can only contain plain objects\n' +
+    '    at new module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n' +
+    '    at module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:88:5)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)\n' +
+    '    at internals.Base.$_compile (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\base.js:645:24)\n' +
+    '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:92\n' +
+    '    at Object.exports.tryWithPath (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\common.js:176:16)\n' +
+    '    at internals.Base.method [as keys] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:32)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:90:25)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)',
+  timestamp: '2022-04-04T10:11:50.991Z'
+}
+{
+  path: 'file._types',
+  level: 'error',
+  message: 'Schema can only contain plain objects Schema can only contain plain objects',
+  stack: 'Error: Schema can only contain plain objects\n' +
+    '    at new module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n' +
+    '    at module.exports (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:88:5)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)\n' +
+    '    at internals.Base.$_compile (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\base.js:645:24)\n' +
+    '    at C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:92\n' +
+    '    at Object.exports.tryWithPath (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\common.js:176:16)\n' +
+    '    at internals.Base.method [as keys] (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\types\\keys.js:260:32)\n' +
+    '    at Object.internals.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:90:25)\n' +
+    '    at Object.exports.schema (C:\\Users\\ammar\\Desktop\\BlogApp\\Backend\\node_modules\\joi\\lib\\compile.js:17:26)',
+  timestamp: '2022-04-04T10:13:09.055Z'
 }

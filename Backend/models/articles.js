@@ -45,6 +45,7 @@ function validateArticle(article) {
   const schema = Joi.object({
     title: Joi.string().min(3).max(99).required(),
     detail: Joi.string().required(),
+    file: Joi,
   });
   return schema.validate(article);
 }

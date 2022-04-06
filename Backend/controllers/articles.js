@@ -31,7 +31,7 @@ const postBlog = asyncMiddleware(async (req, res) => {
     publishDate: new Date().toLocaleString(),
   });
 
-  await article.save();
+  article = await article.save();
   res.status(200).send(_.pick(article, ["title", "detail", "date", "file"]));
 });
 

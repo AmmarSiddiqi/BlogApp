@@ -1,3 +1,4 @@
+import "./envConfig.js";
 import signup from "../routes/signup.js";
 import login from "../routes/login.js";
 import articles from "../routes/articles.js";

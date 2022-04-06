@@ -15,9 +15,10 @@ router.use((req, res, next) => {
   next();
 });
 
-router.get("/:id?", auth, getBlogs);
+router.get("/:id?", /*auth,*/ getBlogs);
 
-router.post("/", [auth, imageUpload.single("file")], postBlog);
+// router.post("/", [auth, imageUpload.single("file")], postBlog);
+router.post("/", [imageUpload.single("file")], postBlog);
 
 router.put("/:id", [auth, imageUpload.single("file")], updateBlog);
 
