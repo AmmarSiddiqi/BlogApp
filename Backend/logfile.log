@@ -235,3 +235,23 @@
   level: 'info',
   timestamp: '2022-04-06T06:51:36.339Z'
 }
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-04-21T15:32:29.450Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-04-21T15:32:29.502Z'
+}
+{
+  message: 'Server started at PORT 3300',
+  level: 'info',
+  timestamp: '2022-04-26T09:08:09.088Z'
+}
+{
+  message: 'Connected with Database',
+  level: 'info',
+  timestamp: '2022-04-26T09:08:09.209Z'
+}
